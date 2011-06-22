@@ -1,11 +1,13 @@
-= Lemmy
+Lemmy
+=====
 
 Lemmy is an extension to the Mustache templating language that adds extra
 features on top of Mustache.
 
 This PHP implementation is based on bobthecow's Mustache.php implementation
 
-== Why?
+Why?
+----
 
 I made Lemmy to solve a pretty specific problem: Currently, a project I'm
 working on has dozens and dozens of template files, written in PHP, and 
@@ -24,11 +26,13 @@ nature.
 So, taking some inspiration from other templating languages 
 (specifically Mako) I wrote Lemmy - the sideburns to Mustache. 
 
-== What does Lemmy do?
+What does Lemmy do?
+-------------------
 
 Lemmy is Mustache. It just adds a handful of useful features.
 
-=== Filters
+Filters
+-------
 
 While filters can be executed in Mustache currently, it feels a
 little awkward, as its the data (model) that implements the functions
@@ -48,5 +52,8 @@ for filters is similar in syntax to Mako:
 
 There's a bunch of filters built in, and you can easily add more
 
-=== Conditions
+Conditions
+----------
+
+__Details coming soon__
 
