@@ -1,0 +1,23 @@
+[
+["Hello {{thing}}!",            { "thing": "<b>world</b>"},
+ "Hello &lt;b&gt;world&lt;/b&gt;!"],
+
+["Hello {{thing|n}}!",            { "thing": "<b>world</b>"},
+ "Hello <b>world</b>!"],
+
+["Hello {{thing|h}}!",            { "thing": "<b>world</b>"},
+ "Hello &lt;b&gt;world&lt;/b&gt;!"],
+
+["Hello {{name|c}}",              { "name" : "people, of the world?"},
+ "Hello people-of-the-world"],
+
+["You were born on {{birthday|d|%Y-%m-%d}}",  { "birthday" : "October 11, 1985" },
+ "You were born on 1985-10-11"],
+
+["Give me {{this|b}}!",            { "this" : "a\nbreak"},
+ "Give me a<br />\nbreak!"],
+
+["Hello {{thing|hb}}!",            { "thing": "<b>the\nworld</b>"},
+ "Hello &lt;b&gt;the<br />\nworld&lt;/b&gt;!"]
+
+]

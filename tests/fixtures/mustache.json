@@ -1,0 +1,7 @@
+[
+["Hello {{thing}}!",            { "thing": "world"},
+ "Hello world!"],
+
+["List:{{#items}} * {{name}} {{/items}}", { "items": [{ "name": "one"}, {"name": "two"}]},
+ "List: * one  * two "]
+]

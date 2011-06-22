@@ -1,0 +1,27 @@
+[
+["You are: {{#eating}}hungry{{/eating}}",   { "eating" : true },
+ "You are: hungry"
+],
+
+["You are: {{#?feeling is full}}not hungry{{/?feeling is full}}", { "feeling" : "full" },
+ "You are: not hungry"
+],
+
+["You are: {{#?tank less than 5}}empty{{/?tank less than 5}}", { "tank" : 3 },
+ "You are: empty"
+],
+
+["You are: {{#?tank less than 2}}empty{{/?tank less than 2}}", { "tank" : 3 },
+ "You are: "
+],
+
+["You are: {{#?tank more than 20}}full{{/?tank more than 20}}", { "tank" : 3 },
+ "You are: "
+],
+
+["You are: {{#?tank more than 20}}full{{/?tank more than 20}}", { "tank" : 30 },
+ "You are: full"
+]
+
+
+]
