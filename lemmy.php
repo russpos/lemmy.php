@@ -1,11 +1,11 @@
 <?php
-require_once('lib/Mustache.php');
+require_once('mustache.php/Mustache.php');
 
 /**
  * Lemmy: one bad-ass mustache
- * 
+ *
  * @uses Mustache
- * @package 
+ * @package
  * @version $id$
  */
 class Lemmy extends Mustache {

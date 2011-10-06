@@ -1,8 +1,8 @@
 <?php
-require_once('tester.php');
+require_once('../tpt/tpt/tpt.php');
 require_once('lemmy.php');
 
-class WhenUsingLemmy extends Tester {
+class WhenUsingLemmy extends TPTest {
 
     function beforeEach() {
         $this->lemmy = new Lemmy();
@@ -25,7 +25,7 @@ class WhenUsingLemmy extends Tester {
     }
 }
 
-class WhenUsingLemmyHelpers extends Tester {
+class WhenUsingLemmyHelpers extends TPTest {
 
     function beforeEach() {
         $this->lemmy = new Lemmy();
